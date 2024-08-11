@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/aneesh2301/flask-app.git'
+               git branch: 'main', url: 'https://github.com/aneesh2301/flask-app.git'
             }
         }
 
