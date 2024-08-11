@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repository') {
+        stage('Checkout') {
             steps {
                 // Clone the repository
                 git 'https://github.com/aneesh2301/flask-app.git'
