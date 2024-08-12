@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('5bb70d65-0f3c-4b23-8b5c-ed39e2fb29e8') // Jenkins credential ID
         DOCKER_IMAGE_NAME = "aneeshyadav2302/flask-app"
-        DOCKER_PATH = '/Users/aneeshyadav/.rd/bin/docker'
+        PATH = '/Users/aneeshyadav/.rd/bin/docker'
     }
 
     stages {
